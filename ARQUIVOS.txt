@@ -1,0 +1,71 @@
+PORTAL DE PROCESSOS - ARQUIVOS PRINCIPAIS
+
+public/
+  Logo_Pedrasplast.png
+
+src/
+  App.jsx
+  main.jsx
+
+  components/
+    feedback/
+      PageLoader.jsx
+      PageLoader.css
+    layout/
+      AppLayout.jsx
+      Layout.css
+      Navbar.jsx
+      Sidebar.jsx
+    routes/
+      AccessRoute.jsx
+      AdminRoute.jsx
+
+  config/
+    acesso.js
+    documentos.js
+
+  context/
+    AuthContext.jsx
+
+  hooks/
+    useAuth.js
+    useDocumentos.js
+    useMensagem.js
+
+  lib/
+    supabase.js
+
+  pages/
+    Admin/
+    Home/
+    Login/
+    Register/
+    Repository/
+
+  services/
+    authService.js
+    documentosService.js
+    perfisService.js
+    solicitacoesService.js
+
+  styles/
+    global.css
+
+  utils/
+    arquivos.js
+    documentos.js
+    texto.js
+
+supabase/
+  schema_completo.sql
+
+.env.example
+.gitignore
+index.html
+package.json
+vite.config.js
+vercel.json
+README.md
+MIGRACAO.md
+
+supabase/migracao_acesso_permanente.sql
